@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+#navbar {
+    padding: 8px;
+    margin: 0px;
+}
+
+#logo {
+    height: 30px;
+} 
+
+
+h1 {
+    text-align: center; 
+    
+} 
+
+#banner {
+
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#about {
+    padding: 8px;
+}
+#about {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px   
+}
+
+#description{
+    padding-right: 8px;
+}
+#description {
+    width: 50%
+
+}
+
+#team {
+    width: 50%
+}
+
+#team-image {
+    border-radius: 5px;
+    width: 100%
+}
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd) {
+    background-color: ghostwhite;
+}
+h2 {
+    text-align: center;
+}
+
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px; 
+}
+
+h3 {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.apply {
+    float: right;
+}
+
+a {
+    text-decoration: none; 
+}
+
+#footer {
+    background-color: ghostwhite;
+    padding: 8px;
+    margin-top: 32px;
+}
+
+#footer-links {
+    list-style: none;
+    text-align: center;
+
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px; 
+}
+
+#application-form div {
+    margin: 16px;
+}
+
+#application-form label {
+    font-weight: 600;
+}
+
+#application-form input, select {
+    padding: 4px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+
+/* #=id . = class padding inside box margin outside box */
